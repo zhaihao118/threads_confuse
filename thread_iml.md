@@ -12,6 +12,7 @@
 ![image](https://user-images.githubusercontent.com/12244316/88128384-68e71200-cc08-11ea-8e72-1ba76aab5879.png)
 
 
+```
 
 JVM_ENTRY(void, JVM_StartThread(JNIEnv* env, jobject jthread))
   JVMWrapper("JVM_StartThread");
@@ -84,5 +85,9 @@ JVM_ENTRY(void, JVM_StartThread(JNIEnv* env, jobject jthread))
   Thread::start(native_thread);
 
 JVM_END
+
+```
+
+
 ![image](https://user-images.githubusercontent.com/12244316/88134828-3cd38d00-cc18-11ea-9208-53456134dc4b.png)
 ![image](https://user-images.githubusercontent.com/12244316/88134777-1dd4fb00-cc18-11ea-9e3e-058c21ca5a60.png)
